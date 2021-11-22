@@ -22,7 +22,7 @@ public class TC02_Double_Click {
 	System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe");
 	driver =new ChromeDriver();
 	driver.manage().window().maximize() ;	
-	driver.get("http://testautomationpractice.blogspot.com/");
+	driver.get("www.gmail.com");
 	driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
 	
